@@ -204,7 +204,6 @@ button {
     border: none;
 }
 
-
 .search-form__btn i {
     color: #fafafa;
     transition: 0.4s;
@@ -216,11 +215,11 @@ button {
     margin-right: 32px;
 }
 
-.search-form__input:not(:placeholder-shown) ~ .search-form__btn{
+.search-form__input:not(:placeholder-shown) ~ .search-form__btn {
     background: transparent;
 }
 
-.search-form__input:not(:placeholder-shown) ~ .search-form__btn i{
+.search-form__input:not(:placeholder-shown) ~ .search-form__btn i {
     color: var(--color-hover);
 }
 
@@ -336,9 +335,9 @@ button {
     gap: 16px;
 }
 
-.product__item + .product__item {
+/* .product__item + .product__item {
     margin-top: 16px;
-}
+} */
 
 .product__img-wrap {
     position: relative;
@@ -520,7 +519,8 @@ button {
     align-items: center;
 }
 
-.footer__link-wrap span , .footer__form-label{
+.footer__link-wrap span,
+.footer__form-label {
     font-size: 1.4rem;
     color: #bbb;
     line-height: 1.28;
@@ -538,13 +538,12 @@ button {
 .footer__link:hover {
     color: var(--color-hover);
     text-shadow: 1px 0 0 currentColor;
-
 }
 
 .footer__form {
-   position: relative;
-   display: flex;
-   margin: 10px 0;
+    position: relative;
+    display: flex;
+    margin: 10px 0;
 }
 
 .footer__form-input {
@@ -558,7 +557,8 @@ button {
     padding-right: 86px;
 }
 
-.footer__form-button,.footer__form-input {
+.footer__form-button,
+.footer__form-input {
     outline: none;
     border: none;
 }
@@ -589,7 +589,7 @@ button {
 .footer__row-bottom {
     padding: 25px 0 55px;
     display: grid;
-    grid-template-columns: 3fr 1fr ;
+    grid-template-columns: 3fr 1fr;
     column-gap: 10px;
 }
 
@@ -611,7 +611,7 @@ button {
     font-weight: bold;
 }
 
-.footer__text:nth-last-child(2){
+.footer__text:nth-last-child(2) {
     border-top: 1px solid #2c2c2c;
     padding-top: 10px;
 }
@@ -620,10 +620,28 @@ button {
     border-top: 1px solid #2c2c2c;
     padding-top: 10px;
     font-size: 1.4rem;
-    color: #F00;
-    
+    color: #f00;
 }
 
 .footer__bottom-wrap {
     padding: 0 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* CSS cho thiết bị có độ rộng tối đa 768px */
+    .container__nav {
+        --width-container: 768px;
+    }
+
+    .nav__list {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* CSS cho thiết bị có độ rộng từ 769px đến 1024px */
+}
+
+@media only screen and (min-width: 1025px) {
+    /* CSS cho thiết bị có độ rộng từ 1025px trở lên */
 }
