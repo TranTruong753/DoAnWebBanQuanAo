@@ -269,10 +269,15 @@ button {
     }
 
     .nav__bars {
+        grid-area: column01;
         display: inline-flex;
         justify-content: center;
         width: 24px;
         font-size: 2.4rem;
+    }
+
+    .fa-x {
+        display: none;
     }
 
     .nav__list-items {
@@ -302,7 +307,7 @@ button {
 
     .cart-shopping {
         padding: 0;
-        margin-left: 5px;   
+        margin-left: 5px;
     }
 
     .cart-shopping i {
