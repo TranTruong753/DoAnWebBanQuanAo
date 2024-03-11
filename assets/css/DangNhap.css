@@ -95,6 +95,7 @@
     height: 41px;
 }
 .btn {
+    cursor: pointer;
     width: 376px;
     height: 41px;
     padding: 8px 15px;

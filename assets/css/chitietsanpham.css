@@ -41,6 +41,7 @@ button {
 }
 
 .btn {
+    cursor: pointer;
     color: #333;
     font-size: 1.6rem;
     font-weight: bold;
@@ -156,6 +157,7 @@ button {
     font-weight: bold;
     color: var(--color);
     line-height: 29px;
+    margin-bottom: 10px;
 }
 
 .content__info-price {
@@ -223,7 +225,7 @@ input[type="radio"] {
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .content__input button {
