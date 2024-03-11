@@ -81,9 +81,9 @@ button {
     align-items: center;
 }
 
-.nav__bars {
+/* .nav__bars {
     display: none;
-}
+} */
 
 .nav__list-items {
     cursor: pointer;

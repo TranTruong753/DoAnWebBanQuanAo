@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./assets/css/DangNhap.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <title>Document</title>
+    <?php 
+        require('./MVC/view/linkfont.php');
+    ?>
 </head>
 
 <body>
