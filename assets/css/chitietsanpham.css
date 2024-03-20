@@ -2,12 +2,12 @@
     box-sizing: border-box;
 }
 
-:root {
+/* :root {
     --primary-color: #fff;
     --header-color: #292929;
     --color-nav: #333;
     --color-hover: #b31f2a;
-}
+} */
 
 html {
     font-size: 62.5%;

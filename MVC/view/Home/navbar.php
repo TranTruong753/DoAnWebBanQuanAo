@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php 
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar</title>
-</head>
+
+?>
 
 <body>
     <!-- nav -->
@@ -14,7 +10,7 @@
             <div class="nav__inner">
                 <!-- logo -->
                 <a href="#" class="nav__link-logo">
-                    <img src="./assets/img/logo.png" alt="" class="nav-logo" />
+                    <img src="../../../assets/img/logo.png" alt="" class="nav-logo" />
                 </a>
                 <!-- <div class="nav__toggle nav__bars" id="nav-toggle">
                         <i class="fa-solid fa-bars"></i>
@@ -23,7 +19,7 @@
                 <!-- nav list -->
                 <ul class="nav__list">
                     <li class="nav__list-items">
-                        <a href="#!" class="nav__item-link">HÀNG MỚI VÈ</a>
+                        <a href="index.php?chon=t&id=1" class="nav__item-link">HÀNG MỚI VÈ</a>
                     </li>
                     <li class="nav__list-items">
                         <a href="#!" class="nav__item-link">ÁO NAM</a>
@@ -122,9 +118,9 @@
                 <!-- login logout -->
                 <div class="nav__right">
                     <div class="nav__right-wrap">
-                        <a href="./DangNhap.php" class="nav__signin">Đăng nhập</a>
+                        <a href="../../../MVC/view/login/dangNhap.php" class="nav__signin">Đăng nhập</a>
                         <span>/</span>
-                        <a href="#!" class="nav__signup">Đăng ký</a>
+                        <a href="../../../MVC/view/login/dangKi.php" class="nav__signup">Đăng ký</a>
                     </div>
                 </div>
             </div>

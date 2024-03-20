@@ -17,8 +17,8 @@
 
 <body>
     <?php 
-require('./MVC/view/header.php');
-require('./MVC/view/navbar.php');
+require('../header.php');
+require('../navbar.php');
     
 ?>
     <div class="grid-container">
