@@ -102,7 +102,7 @@
                     <form action="" class="search-form">
                         <input type="text" class="search-form__input" placeholder="Tìm kiếm ..." />
                         <!-- Submit button -->
-                        <button type="submit" class="search-form__btn">
+                        <button type="submit" class="search-form__btn ">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </button>
 
@@ -111,8 +111,12 @@
                             <i class="fa-solid fa-circle-xmark"></i>
                         </button>
                     </form>
-                    <a href="#!" class="cart-shopping">
+                    <a href="#!" class="cart-shopping cart-btn">
                         <i class="fa-solid fa-cart-shopping"></i>
+                         <!-- Cart preview -->
+                        <div class="cart-preview">
+                                <p class="cart-message">Chưa Có Sản Phẩm</p>
+                        </div>
                     </a>
                 </div>
                 <!-- login logout -->
