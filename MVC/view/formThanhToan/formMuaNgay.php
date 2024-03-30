@@ -11,6 +11,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../../../assets/css/reset.css" />
     <link rel="stylesheet" href="../../../assets/css/style.css" />
+    <link rel="stylesheet" href="../../../assets/css/styleAllForm.css" />
     <link rel="stylesheet" href="../../../assets/css/thanhtoansanpham.css" />
    
 </head>
@@ -26,12 +27,38 @@
                 <!-- thanh quy trình -->
                 <div class="nav-pay__procedure">
                     <div class="pay__procedure-list">
+                        <!-- item 01 -->
                         <div class="pay__procedure-item">
-                            <div class="procedure-item__icon">
+                            <div class="procedure-item__icon pay--active">
                                 <i class="fa-solid fa-cart-shopping"></i>
                             </div>
-                            <div class="procedure-item__title">
+                            <div class="procedure-item__title pay-title--active">
                                 GIỎ HÀNG
+                            </div>
+                        </div>
+
+                        <span class="pay__procedure-line">                            
+                        </span>
+                         <!-- item 02 -->
+                        <div class="pay__procedure-item">
+                            <div class="procedure-item__icon">
+                                <i class="fa-solid fa-money-bill"></i>
+                            </div>
+                            <div class="procedure-item__title">
+                                THANH TOÁN
+                            </div>
+                        </div>
+
+                        <span class="pay__procedure-line">                            
+                        </span>
+
+                          <!-- item 03 -->
+                        <div class="pay__procedure-item">
+                            <div class="procedure-item__icon">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <div class="procedure-item__title">
+                                HOÀN TẤT
                             </div>
                         </div>
                     </div>
@@ -39,7 +66,12 @@
 
                 <!-- thanh tiếp tục -->
                 <div class="nav-pay__next">
-
+                    <a href="#!" class="pay__next-wrap">
+                        <div class="pay__next-title">TIẾP TỤC MUA SẮM</div>
+                        <div class="pay__next-icon">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </a>
                 </div>
 
             </div>
@@ -50,7 +82,7 @@
     <div class="grid-container">
         <div class="grid-item item1">
             <div class="menu__sub">
-                <div class="container">
+                <div class="container container__nav">
                     <ul class="menu__sub-list">
                         <li class="menu__sub-item">
                             <a class="menu__sub-link" href="#!">item 1</a>
@@ -64,7 +96,152 @@
         </div>
         <div class="grid-item item3">
 
-            <div class="container">
+            <div class="container container__nav">
+                <div class="procedure__main">
+                   <div class="procedure__main-left table">
+                        <div class="procedur-left-wrap">
+                            <div class="procedure-left__top">
+                                <input class="procedure-input__check"  type="checkbox" name="allProduct" id="allProduct">
+                                <label class="procedure-label__check" for="allProduct"><span class="procedure-label__tick"></span></label>
+                                <label for="allProduct">Tất cả</label>
+                            </div>
+                            <table class="procedure__table table">
+                                <!-- tiêu đề -->
+                                <tr class="table table-title">
+                                    <th style="text-align: left; padding-left:30px;">Sản phẩm</th>
+                                    <th>Số lượng</th>
+                                    <th>Đơn giá</th>
+                                    <th>Tổng tính</th>
+                                    <th>Xóa</th>
+                                </tr>
+                                <!-- item 01-->
+                                <tr class="table-title table-line">
+                                    <td class="table-product">
+                                        <input class="procedure-input__check" type="checkbox" name="product" id="product">
+                                        <label class="procedure-label__check" for="product"><span class="procedure-label__tick"></span></label>                                  
+                                        <div class="table-product__info">
+                                            <img class="table-product__img" src="../../../assets/img/product01.jpg" alt="">
+                                            <div class="table-title-wrap">
+                                                <p class="table__info-title">áo sơ mi kiểu nữ tay dài xoắn ngực</p>
+                                               <div class="table__info-input-wrap">
+                                                    <select name="" id="" class="table__info-select">
+                                                        <option value="sizeS">S</option>
+                                                        <option value="sizeL">L</option>
+                                                        <option value="sizeM">M</option>
+                                                    </select>
+                                                    <input class="table__info-radio" type="radio" name="" id="color">
+                                                    <label class="table__label-radio" for="color" >
+                                                        <span class="table__label-img" style="background: #f00;"></span>
+                                                    </label>
+                                               </div>
+                                            </div>
+                                        </div>                                       
+                                    </td>
+                                    <td>
+                                        1
+                                    </td>
+                                    <td>
+                                        400.000 VNĐ
+                                    </td>
+                                    <td>
+                                        400.000 VNĐ
+                                    </td>
+                                    <td>
+                                        <div class="table__icon"><i class="fa-solid fa-trash"></i></div>
+                                    </td>
+                                </tr>
+                                <!-- item 02-->
+                                <tr class="table-title table-line">
+                                    <td class="table-product">
+                                        <input class="procedure-input__check" type="checkbox" name="product" id="product">
+                                        <label class="procedure-label__check" for="product"><span class="procedure-label__tick"></span></label>                                  
+                                        <div class="table-product__info">
+                                            <img class="table-product__img" src="../../../assets/img/product01.jpg" alt="">
+                                            <div class="table-title-wrap">
+                                                <p class="table__info-title">áo sơ mi kiểu nữ tay dài xoắn ngực</p>
+                                               <div class="table__info-input-wrap">
+                                                    <select name="" id="" class="table__info-select">
+                                                        <option value="sizeS">S</option>
+                                                        <option value="sizeL">L</option>
+                                                        <option value="sizeM">M</option>
+                                                    </select>
+                                                    <input class="table__info-radio" type="radio" name="" id="color">
+                                                    <label class="table__label-radio" for="color" >
+                                                        <span class="table__label-img" style="background: #f00;"></span>
+                                                    </label>
+                                               </div>
+                                            </div>
+                                        </div>                                       
+                                    </td>
+                                    <td>
+                                        1
+                                    </td>
+                                    <td>
+                                        400.000 VNĐ
+                                    </td>
+                                    <td>
+                                        400.000 VNĐ
+                                    </td>
+                                    <td>
+                                        <div class="table__icon"><i class="fa-solid fa-trash"></i></div>
+                                    </td>
+                                </tr>
+                                 <!-- item 03-->
+                                 <tr class="table-title table-line">
+                                    <td class="table-product">
+                                        <input class="procedure-input__check" type="checkbox" name="product" id="product">
+                                        <label class="procedure-label__check" for="product"><span class="procedure-label__tick"></span></label>                                  
+                                        <div class="table-product__info">
+                                            <img class="table-product__img" src="../../../assets/img/product01.jpg" alt="">
+                                            <div class="table-title-wrap">
+                                                <p class="table__info-title">áo sơ mi kiểu nữ tay dài xoắn ngực</p>
+                                               <div class="table__info-input-wrap">
+                                                    <select name="" id="" class="table__info-select">
+                                                        <option value="sizeS">S</option>
+                                                        <option value="sizeL">L</option>
+                                                        <option value="sizeM">M</option>
+                                                    </select>
+                                                    <input class="table__info-radio" type="radio" name="" id="color">
+                                                    <label class="table__label-radio" for="color" >
+                                                        <span class="table__label-img" style="background: #f00;"></span>
+                                                    </label>
+                                               </div>
+                                            </div>
+                                        </div>                                       
+                                    </td>
+                                    <td>
+                                        1
+                                    </td>
+                                    <td>
+                                        400.000 VNĐ
+                                    </td>
+                                    <td>
+                                        400.000 VNĐ
+                                    </td>
+                                    <td>
+                                        <div class="table__icon"><i class="fa-solid fa-trash"></i></div>
+                                    </td>
+                                </tr>
+                                <!-- <tr class="table-title">
+                                    <td>Sản phẩm</td>
+                                    <td>Số lượng</td>
+                                    <td>Đơn giá</td>
+                                    <td>Tổng tính</td>
+                                    <td>Xóa</td>
+                                </tr> -->
+                            </table>
+                        </div>
+                   </div>
+                   <div class="procedure__main-right table">
+                     <div class="procedure__right-inner">
+                           <div class="procedure__price-wrap">
+                                <span>Tạm tính</span>
+                                <span class="procedure__price">800.000 VNĐ</span>
+                           </div>
+                           <button type="button" class="procedure__btn btn btn--primary">Thanh toán</button>
+                     </div>
+                   </div>
+                </div>
                
             </div>
         </div>

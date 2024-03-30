@@ -25,7 +25,7 @@
     <div class="grid-container">
         <div class="grid-item item1">
             <div class="menu__sub">
-                <div class="container">
+                <div class="container container__nav">
                     <ul class="menu__sub-list">
                         <li class="menu__sub-item">
                             <a class="menu__sub-link" href="#!">item 1</a>
