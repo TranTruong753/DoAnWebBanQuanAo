@@ -10,17 +10,18 @@
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- link css -->
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/chitietsanpham.css" />
+    
+    <link rel="stylesheet" href="../../../assets/css/reset.css" />
+    <link rel="stylesheet" href="../../../assets/css/styleAllForm.css" />
+    <link rel="stylesheet" href="../../../assets/css/style.css" />
+
+    <link rel="stylesheet" href="../../../assets/css/chitietsanpham.css" />
 </head>
 
 <body>
     <?php 
-require('../header.php');
-require('../navbar.php');
-    
-?>
+        require('../Home/navbar.php')
+    ?>
     <div class="grid-container">
         <div class="grid-item item1">
             <div class="menu__sub">
@@ -53,11 +54,11 @@ require('../navbar.php');
             <div class="container">
                 <div class="content__img">
                     <div class="content__img-list">
-                        <img src="./assets/img/product03.jpg" alt="" class="content__img-item">
-                        <img src="./assets/img/product04.jpg" alt="" class="content__img-item">
-                        <img src="./assets/img/product05.jpg" alt="" class="content__img-item">
-                        <img src="./assets/img/product06.jpg" alt="" class="content__img-item">
-                        <img src="./assets/img/product07.jpg" alt="" class="content__img-item">
+                        <img src="/assets/img/product03.jpg" alt="" class="content__img-item">
+                        <img src="/assets/img/product04.jpg" alt="" class="content__img-item">
+                        <img src="/assets/img/product05.jpg" alt="" class="content__img-item">
+                        <img src="/assets/img/product06.jpg" alt="" class="content__img-item">
+                        <img src="/assets/img/product07.jpg" alt="" class="content__img-item">
                     </div>
                     <div class="content__img-main-wrap"><img src="/assets/img/product03.jpg" alt=""
                             class="content__img-main"></div>
@@ -99,15 +100,12 @@ require('../navbar.php');
             </div>
         </div>
 
-    </div>
-
-    <div class="grid-item item5">
-        <?php 
-
-            require('./MVC/view/viewProduct02.php');
-            require('./MVC/view/footer.php');
-            ?>
-    </div>
+        <div class="grid-item item5">
+            <?php 
+                require('../Home/viewProduct02.php');
+                require('../Home/footer.php');
+                ?>
+        </div>
     </div>
 </body>
 

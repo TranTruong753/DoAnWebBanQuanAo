@@ -117,8 +117,8 @@
 
                     <div class="form-input-wrap">
                             <label class="login__formLabel" for="reCodePIN">Nhập lại mã PIN <span class="importan">*</span></label>
-                            <input type="text" name="reCodePIN" id="reCodePIN" class="login__formInput" placeholder="Nhập lại mã PIN...">
-                            <div class="error-text">Lỗi!</div>
+                            <input type="text" name="reCodePIN" id="reCodePIN" class="login__formInput" placeholder="Nhập lại mã PIN...">                 
+                            <div class="error-message" id="error-message"></div>
                     </div>
   
                     <div class="form-input-wrap">

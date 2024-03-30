@@ -17,7 +17,9 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- link css -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/styleAllForm.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    
 </head>
 
 <body>
